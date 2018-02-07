@@ -14,3 +14,12 @@ Temp:22.12C, Humidity:63.45% T=-141.51Â°C P=ovfmBar A=-180058960.00m Rain=255
 obtenu avec le programme baro de jody
   
 
+Cellule de charge et ampli hx711
+permet à partir d'un jauge d econtrainte, d'avoir accés a la moyenne des masses
+cf: https://github.com/bogde/HX711.git
+ // parameter "gain" is ommited; the default value 128 is used by the library
+  // HX711.DOUT  - pin #A1
+  // HX711.PD_SCK - pin #A0
+*/
+
+#include "HX711.h"
